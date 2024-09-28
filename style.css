@@ -20,6 +20,7 @@ body{
     color: white;
     border-radius: 5px;
     border: none;
+    margin-bottom: 40px;
 }
 
 nav h1 {
@@ -36,7 +37,6 @@ nav {
 
 nav > ul {
     display: flex;
-    align-items: center;
 }
 
 nav li {
@@ -202,5 +202,60 @@ h1.resume-header {
 
 .resume-container {
     margin-top: 40px;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
+}
+
+.download-cv{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+/* footer area */
+
+.footer-container{
+    background-color: #FFF8F3;
+    padding: 70px 0px;
+}
+
+section.footer-parent {
+    max-width: 960px;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+}
+
+section.footer-parent {
+    max-width: 960px;
+    display: flex;
+    margin: auto;
+    gap: 100px;
+}
+
+p {}
+
+.footer-section p {
+    font-size: 14px;
+    color: #868074;
+    width: 500px;
+}
+
+a.icons {
+    margin-right: 15px;
+}
+
+img.footer-img {
+    width: 20px;
+}
+
+form.contact input[type="text"], input[type="email"], textarea {
+    display: block;
+    margin-top: 20px;
+    padding: 15px 25px;
+    border: none;
+    width: 100%;
+}
+
+.footer-submit{
+    margin-top: 20px;
+    padding: 10px 30px;
 }
