@@ -6,6 +6,10 @@ body{
 
 /* navber area style  */
 
+.primary-text-color{
+    color: #868074;
+}
+
 .text-primary{
     color: #FD6E0A;
 }
@@ -48,6 +52,10 @@ nav ul li a {
 
 .header{
     background-color: #faf5f1;
+    background-image: url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 35em;
 }
 
 .banner {
@@ -57,14 +65,13 @@ nav ul li a {
     padding-right: 45px;
     padding-top: 25px;
     justify-content: space-between;
+    /* margin-top: 3px; */
 }
 
 .banner img {
     width: 400px;
+    margin-bottom: -5px;
 }
-
-
-.banner-content p {}
 
 .banner-content h3 {
     font-size: 40px;
@@ -80,7 +87,7 @@ nav ul li a {
 
 .banner-content p {
     width: 500px;
-    color: #9d978a;
+    color: #868074;
     padding-bottom: 20px;
 }
 
@@ -92,4 +99,81 @@ nav ul li a {
     padding: 9px 15px;
     border: 1px solid;
     border-radius: 5px;
+}
+
+/* Main area  */
+
+main{
+    max-width: 960px;
+    margin: 0px auto;
+}
+
+.about-section{
+    background-color: #FFF8F3;
+    margin: 100px 0px;
+    text-align: center;
+    padding: 100px;
+}
+
+section.about-parent {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-description p {
+    font-size: 14px;
+    color: #868074;
+}
+
+p.aboutdes {
+    color: #868074;
+    font-size: 13px;
+}
+
+h4.about-title {
+    font-weight: 500;
+}
+
+section.skill-container {
+    margin-bottom: 100px;
+}
+
+/* Skill area style */
+
+section.skill-container h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+section.skill-container .skill-container-des {
+    font-size: 14px;
+    width: 700px;
+    text-align: center;
+    color: #868074;
+    margin: auto;
+}
+
+.skill-area {
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
+}
+
+.skill {
+    padding: 16px;
+    box-shadow: 0px 2px 10px 0px #e8e8e8;
+    border-radius: 5px;
+}
+
+p.skill-description {
+    font-size: 14px;
+    color: #868074;
+}
+
+h3.skill-title {
+    font-size: 15px;
+}
+
+img.skill-img {
+    width: 30px;
 }
